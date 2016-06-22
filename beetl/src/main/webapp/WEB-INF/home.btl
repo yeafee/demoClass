@@ -1,0 +1,6 @@
+<%
+ layout("/layout/defaultLayout.btl",{'title':"beetl 首页面"}){
+%>
+
+  <div><h1>Hello Dude</h1></div>
+<%}%>
