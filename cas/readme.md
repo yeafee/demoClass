@@ -5,9 +5,9 @@
 
 1. 配置host
 
-  *127.0.0.1	demo.yeall.me
-  *127.0.0.1	app1.yeall.me
-  *127.0.0.1	app2.yeall.me
+  * 127.0.0.1	demo.yeall.me
+  * 127.0.0.1	app1.yeall.me
+  * 127.0.0.1	app2.yeall.me
  
 2. 生成证书
 
@@ -30,7 +30,7 @@
 
 5. 配置tomcat
 
-修改server.xml
+
 ```<Connector port="8443" protocol="org.apache.coyote.http11.Http11Protocol"
                maxThreads="150" SSLEnabled="true" scheme="https" secure="true"
 			   keystoreFile="D:/devs/sso/ssodemo.keystore" keystorePass="ssoSSOPwd" URIEncoding="UTF-8"
@@ -49,7 +49,7 @@ https://demo.yeall.me:8443
 >可以看到初始用户名为casuser密码为Mellon 
 
 [Shiro & CAS 实现单点登录](http://howiefh.github.io/2015/05/19/shiro-cas-single-sign-on/)
-![Cas](http://fh-1.qiniudn.com/cas-clip.jpg)
+![CAS最基本的协议过程](http://fh-1.qiniudn.com/cas-clip.jpg)
 
 
 ![流程](http://fh-1.qiniudn.com/cas-noproxy.png)
